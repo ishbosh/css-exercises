@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -10,6 +11,27 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  padding-bottom: 32px;
+}
+
+.info {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+
+.pair {
+  max-width: 200px; /* corrected from solution ... much simpler */
+
+  /* legacy code 
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-basis: 200px;
+
+  end legacy code */
 }
 
 /* do not edit this footer */
